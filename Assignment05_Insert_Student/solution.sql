@@ -12,12 +12,12 @@ CREATE TABLE Student(
     PhoneNumber BIGINT
 );
 
--- Insert
+INSERT INTO Course (CourseID, CourseName, Credits, DepartmentID)
+VALUES
+(101, 'Database Management', 4, 10),
+(102, 'Computer Networks', 3, 20),
+(103, 'Operating Systems', 4, 30);
 
--- 1001 Arun
+DESCRIBE Course;
 
--- 1002 Divya
-
--- 1003 Karthik
-
--- Display all records
+SELECT * FROM Course;
